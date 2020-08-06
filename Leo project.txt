@@ -1,0 +1,35 @@
+Table that has a list of all Serial numbers, and you can add more serial numbers,but you can add the rest of the information later. 
+So by default the other data is null and we be replace once information has being add to the serial number information 
+Intial table
+
+Serial number | Date last work on | Total Hours on Unit | Total Cost
+12131               NULL	       NULL			NuLL
+
+
+Serial number will be a hyper link that takes the user to a table of more detail information of the equipment.
+
+In this table the following information can be add and delete  "The delete information is going be admin only"
+Information that can be add to the serial number will go as follow. The name of the operator who is using the equipment. 
+The hours work on the unit, and the date the unit was work on. 
+And what was done to the equipment.
+				
+			Serial Number
+Operator Name | Hours on Unit | Date MM/DD/YYYY  |    Work perform |   Cost
+John Smith	  3.5		  08/01/2020		Oil Change     100
+
+Operator name- 
+Hours on Unit- 
+Date -
+Work perform - 
+
+Once the information has being add to the serial number then what was add last will be use to pull the "Date last work on".
+For total hours on unit and total cost we will use the tables to calculated the the cost and hours. 
+
+
+So in total we are going to need to use 3 pages maybe 4 pages
+Login - Admin 
+Intial page - This will contain the intial table- can add serial numbers 
+Serial Number page - This will contain the information that was add to the serial numbers. 
+Add info page - We will use this page to add information to the serial number. 
+
+I am planning on hosting the website with aws. 
